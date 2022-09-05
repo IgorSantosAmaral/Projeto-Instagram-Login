@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+/* MAIN content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 82vh;
+}
+.phone-n-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 935px;
+}
+
+
+/* phone */
+
+.insta-phone img {
+    width: 380px;
+    height: 581px;
+}
+
+
+
+/* instagram continue */
+.insta-wrapper {
+    width: 350px;
+    height: 714px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #dbdbdb;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.group:nth-child(1) {
+    min-height: 396px;
+}
+.group:nth-child(2) {
+    height: 63px;
+}
+
+.insta-logo img {
+    height: 3rem;
+}
+
+.insta-login {
+    display: flex;
+    width: 100%;
+    height: 265px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-form {
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form-content {
+    width: 100%;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form div div {
+    width: 268px;
+}
+form div div input {
+    height: 38px;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+form div div button {
+    height: 30px;
+    width: 100%;
+    background-color: #0095f6;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    color: white;
+}
+form div div div {
+    height: 15px;
+    width: 100%;
+    text-align: center;
+}
+form div div a {
+    height: 20px;
+    width: 100%;
+    font-weight: 600;
+    color: #385185;
+}
+form a {
+    width: 268px;
+    text-align: center;
+}
+
+.input-login, .input-pass {
+    padding: 1rem;
+}
+
+.div-tracinho {
+    display: flex;
+    align-items: center;
+}
+.tracinho {
+    background-color: #dbdbdb;
+    height: 1px;
+    
+}
+
+.button-face {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fgt-pass {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #385185;
+}
+
+.not-account div a {
+    color: #0095f6;
+    font-weight: 600;
+}
+
+.group-download {
+    display: flex;
+    flex-direction: column;
+    height: 102px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.get-app {
+    width: 310px;
+    height: 18px;
+    text-align: center;
+}
+
+.app-download {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}
+
+.app-button {
+    width: 136px;
+    height: 44px;
+}
+
+.gp-ap-button {
+    width: 136px;
+    height: 44px;
+}
+
+
+footer a{
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+footer div {
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+footer div div div{
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+    text-align: center;
+    margin: 2px 8px 3px;
+}
+.footer1:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+
+@media (max-width: 875px) {
+    .insta-phone {
+        display: none;
+    }
+}
